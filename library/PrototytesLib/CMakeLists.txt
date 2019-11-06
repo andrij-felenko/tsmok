@@ -1,0 +1,3 @@
+subdirs(OrganoidPrototype)
+subdirs(TransmitterPrototype)
+subdirs(HandlingBehaviorPrototype)

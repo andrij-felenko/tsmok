@@ -1,0 +1,2 @@
+subdirs(BaseLib)
+subdirs(PrototytesLib)

@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/launcher">
+        <file>qml/Launcher.qml</file>
+        <file>qml/OnePreference.qml</file>
+    </qresource>
+</RCC>
