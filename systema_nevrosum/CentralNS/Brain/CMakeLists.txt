@@ -11,8 +11,8 @@ set (Brain_h
 
 add_executable(Brain ${Brain_h} ${Brain_src})
 
-find_package(Qt5Gui)
-target_link_libraries(Brain ${Qt5Gui_LIBRARIES} TransmitterConnectorLib)
+find_package(Qt6Gui)
+target_link_libraries(Brain ${Qt5Gui_LIBRARIES} TransmitterConnectorLib Qt6::Core)
 
 #link_directories(${CMAKE_BINARY_DIR}/lib/transmitterConnector)
 

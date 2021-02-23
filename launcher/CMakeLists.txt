@@ -8,8 +8,6 @@ set (Launcher_src
     )
 
 set (CMAKE_AUTORCC)
-find_package(Qt5Core)
-find_package(Qt5Qml)
-find_package(Qt5Quick)
+find_package(Qt6 COMPONENTS Core Qml Quick)
 add_executable(Tsmok ${Launcher_src} launcher_resource.qrc)
-target_link_libraries(Tsmok Qt5::Core Qt5::Quick Qt5::Qml)
+target_link_libraries(Tsmok Qt6::Core Qt6::Quick Qt6::Qml)

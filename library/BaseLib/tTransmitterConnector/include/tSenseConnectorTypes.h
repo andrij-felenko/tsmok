@@ -8,11 +8,11 @@ namespace Tsmok::Sensory {
 class TSenseConnectorTypes : public QObject, public SenseConnectorTypes
 {
     Q_OBJECT
-    Q_ENUMS(FiveBase)
-    Q_ENUMS(HumanCeption)
-    Q_ENUMS(Internal)
-    Q_ENUMS(NoHuman)
-    Q_ENUMS(NoSpecific)
+    Q_ENUM(FiveBase)
+    Q_ENUM(HumanCeption)
+    Q_ENUM(Internal)
+    Q_ENUM(NoHuman)
+    Q_ENUM(NoSpecific)
 public:
     TSenseConnectorTypes() = default;
 };

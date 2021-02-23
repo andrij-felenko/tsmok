@@ -6,8 +6,8 @@ set(CMAKE_CXX_STANDARD 17)
 add_library(TTransmitterConnectorLib SHARED
     include/tSenseConnectorTypes.h)
 
-find_package(Qt5Core)
-target_link_libraries(TTransmitterConnectorLib Qt5::Core)
+find_package(Qt6Core)
+target_link_libraries(TTransmitterConnectorLib Qt6::Core)
 target_link_libraries(TTransmitterConnectorLib TransmitterConnectorLib)
 
 set_target_properties(TTransmitterConnectorLib PROPERTIES VERSION ${PROJECT_VERSION})
