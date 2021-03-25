@@ -1,26 +1,8 @@
-#
-# CMakeQt: CMake build system template for Qt based projects
-# Author: Andrij Felenko <andrij.felenko.develop@gmail.com>
-#
 cmake_minimum_required(VERSION 3.14)
 
-# Project Info
-project(Tsmok)
-set(PROJECT_NAME_SHORT   "Tsmok")
-set(PROJECT_NAME_LONG    "CMake template Qt project")
-set(PROJECT_DESCRIPTION  "CMake build system template for Qt based projects")
-set(PROJECT_COPYRIGHT    "Copyright (C) 2019-2019 Andrij Felenko")
-set(PROJECT_CONTACT      "andrij.felenko.develop@gmail.com")
-set(PROJECT_VENDOR       "Andrij Felenko")
-set(ORG_WEBSITE          "http://google.com")
-
-# build info
-set(CMAKE_AUTOMOC ON)
-set(CMAKE_AUTOUIC ON)
-set(CMAKE_AUTORCC ON)
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
-set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin/lib)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin/tsmok)
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin/tsmok/lib)
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin/tsmok/archive)
 
 # Recursively add sub dirs
 #subdirs(GraphicLibs)
